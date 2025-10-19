@@ -38,5 +38,21 @@ int main(){
         return 0;
     }
     printf("Converted temperature: %.2f %c\n", converted, convert);
+    printf("Temperature category: ");
+    if (tempC < 0){
+        printf("Freezing\nWeather advisory: Wear a coat!\n");
+    }
+    else if (tempC < 10){
+        printf("Cold\nWeather advisory: Wear a jacket.\n");
+    }
+    else if (tempC < 25){
+        printf("Comfortable\nWeather advisory: Nice weather.\n");
+    }
+    else if (tempC < 35){
+        printf("Hot\nWeather advisory: Drink lots of water!\n");
+    }
+    else{
+        printf("Extreme Heat\nWeather advisory: Stay indoors.\n");
+    }
     return 0;
 }
