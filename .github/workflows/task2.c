@@ -4,6 +4,7 @@ int main(){
     double tempC;
     char scale;
     char convert;
+    double converted;
     printf("Enter the temperature vlaue: ");
     scanf("%lf", &temp);
     printf("Enter the original scale (C, F, or K): ");
@@ -20,5 +21,6 @@ int main(){
         printf("Invalid Scale\n");
         return 0;
     }
+    printf("Converted temperature: %.2f %c\n", converted, convert);
     return 0;
 }
