@@ -2,7 +2,7 @@
 int main(){
     int score;
     while (1){
-        printf("Enter the score to see all possible combinations of NFL scoring plays: ");
+        printf("Enter the NFL score (Enter 1 to stop): ");
         scanf("%d", &score);
         if (score == 1){
             printf("Exiting...\n");
