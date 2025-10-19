@@ -9,5 +9,8 @@ int main(){
     scanf("%c", &scale);
     printf("Enter the scale to convert to (C, F, or K): ");
     scanf("%c", &convert);
+    if (scale == "C" || scale == "F" || scale == "K" || convert == "C" || convert == "F" || convert == "K"){
+        printf("Invalid Scale");
+    }
     return 0;
 }
