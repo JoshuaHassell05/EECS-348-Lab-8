@@ -34,7 +34,7 @@ int main(){
         converted = tempC + 273.15;
     }
     else {
-        printf("Invalid scale\n");
+        printf("Invalid Scale\n");
         return 0;
     }
     printf("Converted temperature: %.2f %c\n", converted, convert);
