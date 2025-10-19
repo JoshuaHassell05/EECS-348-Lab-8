@@ -8,5 +8,11 @@ int main(){
     int safety = 2;
     printf("Enter the score to see all possible combinations of NFL scoring plays: ");
     scanf("%d", &score);
+    if (score <= 1){
+        printf("Invalid Score");
+        return 0;
+    }
+    
     return 0;
+
 }
